@@ -1,6 +1,6 @@
-/* Altere o programa do exercício oi para que cada palavra da frase:
+/* Escrever a seguinte frase:
 Vou aprender a programar na Linguagem C++
-apareça em linhas diferentes*/
+Escrever em linhas diferentes*/
 
 #include <iostream>
 
