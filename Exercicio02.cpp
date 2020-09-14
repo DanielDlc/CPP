@@ -1,18 +1,17 @@
-/* No Código do exercício 02, utilize os atalhos do visual Sudio Community 2019/2017 para:
-° Criar um comentário de uma linha de código com //
-colocando seu nome completo e data de criação do programa.
-° Criar um comentário de várias linhas de código
+/* No CÃ³digo do exercÃ­cio 02 vamos mostrar uma saÃ­da de dados
+Â° Criar um comentÃ¡rio de uma linha de cÃ³digo com //
+Â° Criar um comentÃ¡rio de vÃ¡rias linhas de cÃ³digo
 /**/ 
 /*Explicando e descrevendo o que faz e qual objetivo deste programa
-° Auimentar e Diminuit o texto de seu CódigoFonte*/
+Â° Aumentar e Diminuir o texto de seu CÃ³digoFonte*/
 
-#include < iostream>
-// Aluno DanielDlc
-// data: 14 de setembro de 2020
+#include < iostream> 
+// Daniel Louro Costa
+// 14 de setembro de 2020
 
-int main() // indica que iniciou uma função com parametro main.
+int main() // indica que iniciou uma funÃ§Ã£o com parametro main.
 {
-	// indica a saída de dados com a mensagem Meu primeiro programa...
+	// indica a saÃ­da de dados com a mensagem Meu primeiro programa...
 	std::cout << "Meu primeiro programa utilizando a linguagem C++" << std::endl;
 	
 	// retorno zero indica que o programa foi finalizado com sucesso.
