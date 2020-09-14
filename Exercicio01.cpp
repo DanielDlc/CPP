@@ -6,8 +6,9 @@ Escrever em linhas diferentes*/
 
 int main()
 {
+	//std:cout << "Vou aprender a programar na linguagem c++" std::endl;
 	std::cout << "Vou" << std::endl;
-	std::cout << "aprendedr" << std::endl;
+	std::cout << "aprender" << std::endl;
 	std::cout << "a" << std::endl;
 	std::cout << "programar" << std::endl;
 	std::cout << "na" << std::endl;
