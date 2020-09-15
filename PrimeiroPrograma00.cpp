@@ -1,5 +1,7 @@
+// Primeiro programa C ++
+// Daniel Louro Costa
+
 #include <iostream> // permite que o programa gere saída de dados na tela
-#include <cmath> // biblioteca de matemática C++ padrão
 
 // a função main inicia a execução
 int main()
