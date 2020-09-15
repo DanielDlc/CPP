@@ -6,35 +6,35 @@
 
 int main()
 {
-	_tsetlocale(LC_ALL, _T("portuguese")); // configurar o console para exibir acentos de palavras
+	_tsetlocale(LC_ALL, _T("portuguese")); // configurar o console para exibir acento de palavras
 
-	// DeclaraÁ„o de vari·veis
-	// Primeiro colocar o tipo de vari·vel, neste caso escolhemos int (tambÈm podemos executar como: int NumVidas, Pontuacao; na mesma linha.
-	/* quando atribuimos uma vari·vel, pedimos ao computador um local na memÛria RAM com o tamanho suficiente para armazenar
-	um n˙mero inteiro (int) e colocar nome deste local como (NumVidas e Pontuacao) observe que a vari·vel n„o deve ser acentuada.*/
-	int NumVidas = 5; // Indicando que o programa ir· alocar um local um espaÁo memÛria so tipo inteiro e colocar o valor 5   
-	int Pontuacao = 1350; // Indicando que o programa ir· alocar um local um espaÁo memÛria so tipo inteiro e colocar o valor 1350
+	// Declara√ß√£o de vari√°veis
+	// Primeiro colocar o tipo de vari√°vel, neste caso escolhemos int (tamb√©m podemos executar como: int NumVidas, Pontuacao; na mesma linha.
+	/* quando atribuimos uma vari√°vel, pedimos ao computador um local na mem√≥ria RAM com o tamanho suficiente para armazenar
+	um n√∫mero inteiro (int) e colocar nome deste local como (NumVidas e Pontuacao) observe que a vari√°vel n√£o deve ser acentuada.*/
+	int NumVidas = 5; // Indicando que o programa ir√° alocar um local um espa√ßo mem√≥ria so tipo inteiro e colocar o valor 5   
+	int Pontuacao = 1350; // Indicando que o programa ir√° alocar um local um espa√ßo mem√≥ria so tipo inteiro e colocar o valor 1350
 	
 	std::cout << "*********INICIO DO JOGO*********" << std::endl;
 	std::cout << "Vidas Jogador: " << NumVidas << std::endl;
-	std::cout << "PontuaÁ„o: " << Pontuacao << std::endl;
+	std::cout << "Pontua√ß√£o: " << Pontuacao << std::endl;
 	std::cout << "********************************" << std::endl;
 
-	std::cout << "Tamanho da Vari·vel Numvidas " << sizeof(NumVidas) << "Bytes" << std::endl; // sizeof mostra o tamanhı em bytes da vari·vel.
-	std::cout << "Tamanho da Vari·vel Pontuacao " << sizeof(Pontuacao) << "Bytes" << std::endl;
+	std::cout << "Tamanho da Vari√°vel Numvidas " << sizeof(NumVidas) << "Bytes" << std::endl; // sizeof mostra o tamanh√µ em bytes da vari√°vel.
+	std::cout << "Tamanho da Vari√°vel Pontuacao " << sizeof(Pontuacao) << "Bytes" << std::endl;
 
-	std::cout << "EndereÁo que Numvidas Ocupa na MemÛria RAM: " << &NumVidas << "\n";  // & antes da vari·vel mostra o local ocupado na memÛria.
-	std::cout << "EndereÁo que PontuaÁ„o Ocupa na memÛria Ram: " << &Pontuacao << "\n"; 
+	std::cout << "Endere√ßo que Numvidas Ocupa na Mem√≥ria RAM: " << &NumVidas << "\n";  // & antes da vari√°vel mostra o local ocupado na mem√≥ria.
+	std::cout << "Endere√ßo que Pontua√ß√£o Ocupa na mem√≥ria Ram: " << &Pontuacao << "\n"; 
 	std::cout << "********************************" << std::endl;
 
 	std::cout << "*********DURANTE O JOGO*********" << std::endl;
 
-	// Ir· acrescentar um valor na regi„o de memÛria rotulada como PontuaÁ„o (PontuaÁ„o = PontuaÁ„o + 150) 
-	// Ir· decrescer um valor na regi„o de memÛria rotulada como NumVidas (NumVidas = Numvidas - 1)
-	Pontuacao += 150; //PontuaÁ„o = (1350 - 150)
+	// Ir√° acrescentar um valor na regi√£o de mem√≥ria rotulada como Pontua√ß√£o (Pontua√ß√£o = Pontua√ß√£o + 150) 
+	// Ir√° decrescer um valor na regi√£o de mem√≥ria rotulada como NumVidas (NumVidas = Numvidas - 1)
+	Pontuacao += 150; //Pontua√ß√£o = (1350 - 150)
 	NumVidas -= 1; // NumVidas = (5 - 1)
 	std::cout << "Vidas Jogador: " << NumVidas << std::endl;
-	std::cout << "PontuaÁ„o: " << Pontuacao << std::endl;
+	std::cout << "Pontua√ß√£o: " << Pontuacao << std::endl;
 	std::cout << "********************************" << std::endl;
 
 	return 0;
