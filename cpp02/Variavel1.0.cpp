@@ -20,7 +20,7 @@ int main()
 	std::cout << "Pontuação: " << Pontuacao << std::endl;
 	std::cout << "********************************" << std::endl;
 
-	std::cout << "Tamanho da Variável Numvidas " << sizeof(NumVidas) << "Bytes" << std::endl; // sizeof mostra o tamanhõ em bytes da variável.
+	std::cout << "Tamanho da Variável Numvidas " << sizeof(NumVidas) << "Bytes" << std::endl; // sizeof mostra o tamanho em bytes da variável.
 	std::cout << "Tamanho da Variável Pontuacao " << sizeof(Pontuacao) << "Bytes" << std::endl;
 
 	std::cout << "Endereço que Numvidas Ocupa na Memória RAM: " << &NumVidas << "\n";  // & antes da variável mostra o local ocupado na memória.
@@ -31,7 +31,7 @@ int main()
 
 	// Irá acrescentar um valor na região de memória rotulada como Pontuação (Pontuação = Pontuação + 150) 
 	// Irá decrescer um valor na região de memória rotulada como NumVidas (NumVidas = Numvidas - 1)
-	Pontuacao += 150; //Pontuação = (1350 - 150)
+	Pontuacao += 150; //Pontuação = (1350 + 150)
 	NumVidas -= 1; // NumVidas = (5 - 1)
 	std::cout << "Vidas Jogador: " << NumVidas << std::endl;
 	std::cout << "Pontuação: " << Pontuacao << std::endl;
