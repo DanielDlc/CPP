@@ -12,8 +12,8 @@ int main()
 	// Primeiro colocar o tipo de variável, neste caso escolhemos int (também podemos executar como: int NumVidas, Pontuacao; na mesma linha.
 	/* quando atribuimos uma variável, pedimos ao computador um local na memória RAM com o tamanho suficiente para armazenar
 	um número inteiro (int) e colocar nome deste local como (NumVidas e Pontuacao) observe que a variável não deve ser acentuada.*/
-	int NumVidas = 5; // Indicando que o programa irá alocar um local um espaço memória so tipo inteiro e colocar o valor 5   
-	int Pontuacao = 1350; // Indicando que o programa irá alocar um local um espaço memória so tipo inteiro e colocar o valor 1350
+	int NumVidas = 5; // Indicando que o programa irá alocar (um local) um espaço na memória do tipo inteiro e colocar o valor 5   
+	int Pontuacao = 1350; // Indicando que o programa irá alocar (um local) um espaço ná emória do tipo inteiro e colocar o valor 1350
 	
 	std::cout << "*********INICIO DO JOGO*********" << std::endl;
 	std::cout << "Vidas Jogador: " << NumVidas << std::endl;
