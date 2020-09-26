@@ -7,7 +7,7 @@
 // a função main inicia a execução
 int main()
 {
-	std::cout << "Ola mundo C++ " << std::endl; // exibe a mensagem
+	std::cout << "Olá mundo C++ " << std::endl; // exibe a mensagem
 	
 	return 0; // indica que o programa terminou com sucesso
 } // fim da função main
