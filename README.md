@@ -1,6 +1,8 @@
-# Código limpo C++
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/DanielDlc/Django/blob/main/LICENSE)
 
-# Sumário
+# Linguagem C++
+
+## Sumário
 
 1. [Introdução](#introdução)  
 2. [Estilo de Código](#estilo-de-código)  
@@ -28,6 +30,8 @@
 3.7. [Prefira `++i` em vez de `i++`](#refira-`++i`-em-vez-de-`i++`)  
 3.8. [Pare e dê uma volta](#pare-e-dê-uma-volta)  
 4. [Referências](#referências)  
+
+# Código limpo C++
 
 # Introdução
 
