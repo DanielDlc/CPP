@@ -10,6 +10,7 @@ class Carro
     int year;
 };
 
+ // função principal
 int main()
 {
     // criar 1° objeto do carro.
