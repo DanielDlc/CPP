@@ -34,3 +34,17 @@ bool listaVazia(){
     else
         return false;    
 }   
+
+void adicionaFim(string nome, int qtd, Produto produtos[]){
+    if (listaCheia()){
+        return;
+    } else {
+        Produto *p = new Produto();
+        p->nome = nome;
+        p->qtd = qtd;
+        if (!listaVazia())
+            l->ultimo = l->ultimo + 1;
+        produtos[l->ultimo] = *p; 
+        l->qtd++;
+    }
+}
