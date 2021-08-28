@@ -3,7 +3,7 @@
 // prototipo
 void soma();
 
-// funcão principal que chama a função soma
+// função principal que chama a função soma
 int main()
 {
     soma();
