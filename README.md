@@ -4,38 +4,38 @@
 
 ## Sumário
 
-1. [Introdução](#introdução)  
+1. [Introdução](#introdução)
 2. [Estilo de Código](#estilo-de-código)  
-2.1. [Nomes de Variáveis](#nomes-de-variáveis)  
-2.2. [Nomes de Constantes](#nomes-de-constantes)  
-2.3. [Nomes de Funções](#nomes-de-funções)  
-2.4. [Nomes de Classes](#nomes-de-classes)  
-2.5. [Comentários](#comentários)  
-2.6. [Indentação](#indentação)  
-2.7. [Não utilize números mágicos](#não-utilize-números-mágicos)  
-2.8. [Inclua guards](#inclua-guards)  
-2.9. [Sempre utilize chaves](#sempre-utilize-chaves)  
-2.10. [Mantenha as linhas com um comprimento razoável](#mantenha-as-linhas-com-um-comprimento-razoável)  
-2.11. [Utilize aspas duplas para incluir arquivos locais](#utilize-aspas-duplas-para-incluir-arquivos-locais)  
-2.12. [Utilize constantes sempre que possível](#utilize-constantes-sempre-que-possível)  
-2.13. [Passe ou retorne tipos simples por valor](#passe-ou-retorne-tipos-simples-por-valor)  
-2.14. [Utilize double em vez de float](#utilize-double-em-vez-de-float)  
+   2.1. [Nomes de Variáveis](#nomes-de-variáveis)  
+   2.2. [Nomes de Constantes](#nomes-de-constantes)  
+   2.3. [Nomes de Funções](#nomes-de-funções)  
+   2.4. [Nomes de Classes](#nomes-de-classes)  
+   2.5. [Comentários](#comentários)  
+   2.6. [Indentação](#indentação)  
+   2.7. [Não utilize números mágicos](#não-utilize-números-mágicos)  
+   2.8. [Inclua guards](#inclua-guards)  
+   2.9. [Sempre utilize chaves](#sempre-utilize-chaves)  
+   2.10. [Mantenha as linhas com um comprimento razoável](#mantenha-as-linhas-com-um-comprimento-razoável)  
+   2.11. [Utilize aspas duplas para incluir arquivos locais](#utilize-aspas-duplas-para-incluir-arquivos-locais)  
+   2.12. [Utilize constantes sempre que possível](#utilize-constantes-sempre-que-possível)  
+   2.13. [Passe ou retorne tipos simples por valor](#passe-ou-retorne-tipos-simples-por-valor)  
+   2.14. [Utilize double em vez de float](#utilize-double-em-vez-de-float)
 3. [Dicas](#dicas)  
-3.1. [Lembre-se de deletar os ponteiros](#lembre-se-de-deletar-os-ponteiros)  
-3.2. [Utilize ponteiros inteligentes](#utilize-ponteiros-inteligentes)  
-3.3. [Códigos não utilizados devem ser deletados](#códigos-não-utilizados-devem-ser-deletados)  
-3.4. [Evite métodos com muitos parâmetros](#evite-métodos-com-muitos-parâmetros)  
-3.5. [Utilize espaços em branco para melhor visualização](#utilize-espaços-em-branco-para-melhor-visualização)  
-3.6. [Limite o escopo das variáveis](#limite-o-escopo-das-variáveis)  
-3.7. [Prefira `++i` em vez de `i++`](#refira-`++i`-em-vez-de-`i++`)  
-3.8. [Pare e dê uma volta](#pare-e-dê-uma-volta)  
-4. [Referências](#referências)  
+   3.1. [Lembre-se de deletar os ponteiros](#lembre-se-de-deletar-os-ponteiros)  
+   3.2. [Utilize ponteiros inteligentes](#utilize-ponteiros-inteligentes)  
+   3.3. [Códigos não utilizados devem ser deletados](#códigos-não-utilizados-devem-ser-deletados)  
+   3.4. [Evite métodos com muitos parâmetros](#evite-métodos-com-muitos-parâmetros)  
+   3.5. [Utilize espaços em branco para melhor visualização](#utilize-espaços-em-branco-para-melhor-visualização)  
+   3.6. [Limite o escopo das variáveis](#limite-o-escopo-das-variáveis)  
+   3.7. [Prefira `++i` em vez de `i++`](#refira-`++i`-em-vez-de-`i++`)  
+   3.8. [Pare e dê uma volta](#pare-e-dê-uma-volta)
+4. [Referências](#referências)
 
 # Código limpo C++
 
 # Introdução
 
-Este documento apresenta um guia rápido de boas práticas em **C++** e é voltado para iniciantes na linguagem mas também pode ser útil para desenvolvedores intermediários.
+Este documento apresenta um guia rápido de boas práticas em **C++** e é voltado para iniciantes na linguagem. No entanto, pode ser útil para desenvolvedores intermediários.
 
 As informações apresentadas neste guia foram obtidas de alguns materiais (livros e blogs), citados nas referências, e de conhecimento prático pessoal.
 
@@ -488,7 +488,7 @@ void ponteiroTradicional()
     // Exemplo: pSong->duration();
 
     // Não esqueça de deletar o ponteiro
-    delete pSong;   
+    delete pSong;
 }
 ```
 
@@ -643,8 +643,8 @@ Sempre que estiver empacado na solução de um problema, respire fundo e vá dar
 
 **10 most voted C++ best practices**: <http://codergears.com/Blog/?p=1957>
 
- [1]: https://pt.wikipedia.org/wiki/CamelCase
- [2]: https://en.wikipedia.org/wiki/Snake_case
- [3]: https://pt.wikipedia.org/wiki/Comportamento_indefinido
- [4]: https://pt.wikipedia.org/wiki/Ponteiro_inteligente
- [5]: https://pt.wikipedia.org/wiki/Vazamento_de_mem%C3%B3ria
+[1]: https://pt.wikipedia.org/wiki/CamelCase
+[2]: https://en.wikipedia.org/wiki/Snake_case
+[3]: https://pt.wikipedia.org/wiki/Comportamento_indefinido
+[4]: https://pt.wikipedia.org/wiki/Ponteiro_inteligente
+[5]: https://pt.wikipedia.org/wiki/Vazamento_de_mem%C3%B3ria
