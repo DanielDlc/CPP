@@ -35,7 +35,7 @@
 
 # Introdução
 
-Este documento apresenta um guia rápido de boas práticas em **C++** e é voltado para iniciantes na linguagem. No entanto, pode ser útil para desenvolvedores intermediários.
+Este documento apresenta um guia rápido de boas práticas em **C++** e é voltado para iniciantes na linguagem. No entanto, também pode ser útil para desenvolvedores intermediários.
 
 As informações apresentadas neste guia foram obtidas de alguns materiais (livros e blogs), citados nas referências, e de conhecimento prático pessoal.
 
