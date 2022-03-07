@@ -1,3 +1,5 @@
+// criação de variáveis
+
 # include <iostream>
 
 using namespace std;
