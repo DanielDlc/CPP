@@ -1,3 +1,5 @@
+// variáveis global e local
+
 #include <iostream>
 
 using namespace std;
