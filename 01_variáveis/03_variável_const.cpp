@@ -1,3 +1,5 @@
+// criando variável com const
+
 #include <iostream>
 
 using namespace std;
