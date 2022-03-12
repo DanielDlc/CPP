@@ -1,6 +1,7 @@
+// contador com laço for
+
 #include <iostream>
 
-// dontador de 0 até 10
 int main() 
 {
     int contagem;
