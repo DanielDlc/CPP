@@ -1,6 +1,8 @@
+// while para contar até 10
+
+
 #include <iostream>
 
-// contar até 10
 int main() 
 {
     int homem = 0;
