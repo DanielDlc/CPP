@@ -1,7 +1,8 @@
+// contar 10 filmes usando matriz unidimensional
+
 #include <iostream>
 using namespace std;
 
-// contar 10 filmes usando matriz unidimensional
 int main()
 {
     string filmes[10] = {"filme01", "filme02", "filme03", "filme04", "filme05",
