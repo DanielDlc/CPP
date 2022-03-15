@@ -1,7 +1,8 @@
+// matriz bidimensional
+
 #include <iostream>
 using namespace std;
 
-// matriz bidimensional
 int main()
 {
     // criando uma tabela com 3 linhas e 4 colunas
