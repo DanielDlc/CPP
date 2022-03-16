@@ -1,6 +1,8 @@
+// contagem regressiva usando do while
+
+
 #include <iostream>
 
-// contagem regressiva inciando em 10 e terminando em 1
 int main()
 {
     int contagem_R = 10;
