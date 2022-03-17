@@ -1,3 +1,5 @@
+// matriz bidimensional utilizando for
+
 #include <iostream>
 using namespace std;
 
