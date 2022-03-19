@@ -1,6 +1,4 @@
-//
-// ter a saída a quantidade total de bytes do tipo int + int + double = 12
-//
+// struct e sizeof
 
 #include <iostream>
 #include <stdlib.h>
