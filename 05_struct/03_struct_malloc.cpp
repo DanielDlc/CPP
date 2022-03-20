@@ -1,6 +1,4 @@
-//
-// Alocar memória
-//
+// struct com malloc
 
 #include <iostream>
 #include <stdlib.h>
