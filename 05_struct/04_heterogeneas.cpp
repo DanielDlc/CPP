@@ -1,7 +1,6 @@
 // estruturas Heterogêneas
-// São um conjunto de dados criados com tipos diferentes.
-// Quando ciramos uma struc, podemos organizar um conjunto de dados e agrupar em um único campo.
-// abaixo, escrevo um pequeno script para mostrar como podemos utilizar para agrupar 
+// conjunto de dados criados com tipos diferentes.
+// Quando criamos uma struc, podemos organizar um conjunto de dados e agrupar em um único campo.
 
 #include <iostream>
 #include <string>
