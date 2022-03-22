@@ -1,3 +1,5 @@
+// criando função soma sem argumento
+
 #include <iostream>
 
 // prototipo
