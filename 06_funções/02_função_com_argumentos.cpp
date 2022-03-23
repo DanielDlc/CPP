@@ -1,3 +1,5 @@
+// função com argumento
+
 #include <iostream>
 
 // função com argumento subtrair
