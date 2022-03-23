@@ -2,7 +2,6 @@
 
 #include <iostream>
 
-// função com argumento subtrair
 void subtrair(int numero01, int numero02);
 
 // atribuindo valor01 no parâmetro numero01 e valor02 no parâmetro numero02
