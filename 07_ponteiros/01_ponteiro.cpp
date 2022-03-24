@@ -1,6 +1,7 @@
+// criando variável ponteiro
+
 #include <iostream>
 
-// variável ponteiro
 int main()
 {
     int valor = 200;
