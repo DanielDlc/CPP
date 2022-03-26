@@ -1,3 +1,5 @@
+// exemplo do uso se ponteiro 
+
 #include <iostream>
 
 int main()
