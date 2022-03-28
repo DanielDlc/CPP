@@ -1,8 +1,9 @@
+// criando um programa usando printf
+
 #include <iostream>
 #include <stdio.h>
 using namespace std;
 
-// criando um programa usando printf
 int main()
 {
     printf("\nEssa mensagem foi escrita com printf\n");
