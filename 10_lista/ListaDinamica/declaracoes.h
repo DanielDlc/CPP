@@ -1,3 +1,5 @@
+// lista dinâmica declarando struct
+
 #include <iostream>
 using namespace std;
 
