@@ -1,4 +1,4 @@
-                    // - Lista Estática -
+// - Lista Estática -
 /* 
 
 Lista Estática será utilizada arrays como base!
@@ -22,7 +22,7 @@ contruída em cima de um array
 */
 
 
-                    // - Lista Dinâmica -
+// - Lista Dinâmica -
 /*
 
 Lista Dinâmica será utilizado ponteiros como base!
