@@ -1,3 +1,5 @@
+// principal
+
 #include <cstdlib>
 #include <iostream>
 #include"funcoes.h"
