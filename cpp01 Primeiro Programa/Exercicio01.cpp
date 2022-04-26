@@ -1,6 +1,4 @@
-/* Escrever a seguinte frase:
-Vou aprender a programar na Linguagem C++
-Escrever em linhas diferentes*/
+// cout 
 
 #include <iostream>
 
