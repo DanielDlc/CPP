@@ -1,5 +1,4 @@
-/* Trocar a cor Utilizando o comando System(COLOR)
-e altere a cor de exibição da fonte no terminal de saída para uma cor de sua preferência.*/
+// Modificar as cores do programa
 
 #include <iostream>
 
