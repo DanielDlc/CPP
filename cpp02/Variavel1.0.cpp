@@ -1,5 +1,5 @@
 // 14 de setembro de 2020
-// Daniel Louro Costa
+// Variável CPP
 
 #include <iostream>
 #include <tchar.h>
