@@ -1,4 +1,4 @@
-//Média de três números
+// calcular a média
 
 #include <iostream>
 
