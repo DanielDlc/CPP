@@ -1,4 +1,4 @@
-/* Incremento e Decremento */
+// incremento e decremento
 
 #include <iostream>
 
