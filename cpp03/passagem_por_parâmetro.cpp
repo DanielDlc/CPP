@@ -1,6 +1,4 @@
-// passagem de parâmetro para uma função, passamos uma cópia do valor que você usa como argumento. 
-//um exemplo de um argumento de uma função f() é uma variável local em f() que é inicializada cada vez que f() é
-// chamada.
+// passagem de par
 
 #include <iostream>
 
@@ -25,3 +23,7 @@ int main() {
     return 0;
 
 }
+
+// passagem de parâmetro para uma função, passamos uma cópia do valor que você usa como argumento. 
+//um exemplo de um argumento de uma função f() é uma variável local em f() que é inicializada cada vez que f() é
+// chamada.
