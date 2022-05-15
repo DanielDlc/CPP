@@ -1,6 +1,4 @@
-//Passagem por referência, utilizamos  & ( e comercial )
-// podemos fazer uma função operar diretamente sobre qualquer objeto para o
-// qual passamos uma referência
+//Passagem por referência
 
 #include <iostream>
 
@@ -25,3 +23,7 @@ int main() {
     return 0;
 
 }
+
+// utilizamos  & ( e comercial )
+// podemos fazer uma função operar diretamente sobre qualquer objeto para o
+// qual passamos uma referência
