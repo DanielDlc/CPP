@@ -1,4 +1,4 @@
-// utilizando condicional if
+// utilizando condicional if.
 
 #include <iostream>
 
