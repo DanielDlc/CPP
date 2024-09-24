@@ -4,32 +4,36 @@
 
 ## Sumário
 
-1. [Introdução](#introdução)
-2. [Estilo de Código](#estilo-de-código)  
-   2.1. [Nomes de Variáveis](#nomes-de-variáveis)  
-   2.2. [Nomes de Constantes](#nomes-de-constantes)  
-   2.3. [Nomes de Funções](#nomes-de-funções)  
-   2.4. [Nomes de Classes](#nomes-de-classes)  
-   2.5. [Comentários](#comentários)  
-   2.6. [Indentação](#indentação)  
-   2.7. [Não utilize números mágicos](#não-utilize-números-mágicos)  
-   2.8. [Inclua guards](#inclua-guards)  
-   2.9. [Sempre utilize chaves](#sempre-utilize-chaves)  
-   2.10. [Mantenha as linhas com um comprimento razoável](#mantenha-as-linhas-com-um-comprimento-razoável)  
-   2.11. [Utilize aspas duplas para incluir arquivos locais](#utilize-aspas-duplas-para-incluir-arquivos-locais)  
-   2.12. [Utilize constantes sempre que possível](#utilize-constantes-sempre-que-possível)  
-   2.13. [Passe ou retorne tipos simples por valor](#passe-ou-retorne-tipos-simples-por-valor)  
-   2.14. [Utilize double em vez de float](#utilize-double-em-vez-de-float)
-3. [Dicas](#dicas)  
-   3.1. [Lembre-se de deletar os ponteiros](#lembre-se-de-deletar-os-ponteiros)  
-   3.2. [Utilize ponteiros inteligentes](#utilize-ponteiros-inteligentes)  
-   3.3. [Códigos não utilizados devem ser deletados](#códigos-não-utilizados-devem-ser-deletados)  
-   3.4. [Evite métodos com muitos parâmetros](#evite-métodos-com-muitos-parâmetros)  
-   3.5. [Utilize espaços em branco para melhor visualização](#utilize-espaços-em-branco-para-melhor-visualização)  
-   3.6. [Limite o escopo das variáveis](#limite-o-escopo-das-variáveis)  
-   3.7. [Prefira `++i` em vez de `i++`](#refira-`++i`-em-vez-de-`i++`)  
-   3.8. [Pare e dê uma volta](#pare-e-dê-uma-volta)
-4. [Referências](#referências)
+- [Linguagem C++](#linguagem-c)
+  - [Sumário](#sumário)
+- [Código limpo C++](#código-limpo-c)
+- [Introdução](#introdução)
+- [Estilo de Código](#estilo-de-código)
+  - [Nomes de Variáveis](#nomes-de-variáveis)
+  - [Nomes de Constantes](#nomes-de-constantes)
+  - [Nomes de Funções](#nomes-de-funções)
+  - [Nomes de Classes](#nomes-de-classes)
+  - [Comentários](#comentários)
+  - [Indentação](#indentação)
+  - [Não utilize números mágicos](#não-utilize-números-mágicos)
+  - [Inclua guards](#inclua-guards)
+  - [Sempre utilize chaves](#sempre-utilize-chaves)
+  - [Mantenha as linhas com um comprimento razoável](#mantenha-as-linhas-com-um-comprimento-razoável)
+  - [Utilize aspas duplas para incluir arquivos locais](#utilize-aspas-duplas-para-incluir-arquivos-locais)
+  - [Utilize constantes sempre que possível](#utilize-constantes-sempre-que-possível)
+  - [Passe ou retorne tipos simples por valor](#passe-ou-retorne-tipos-simples-por-valor)
+  - [Utilize double em vez de float](#utilize-double-em-vez-de-float)
+- [Dicas](#dicas)
+  - [Lembre-se de deletar os ponteiros](#lembre-se-de-deletar-os-ponteiros)
+  - [Utilize ponteiros inteligentes](#utilize-ponteiros-inteligentes)
+  - [Códigos não utilizados devem ser deletados](#códigos-não-utilizados-devem-ser-deletados)
+  - [Evite métodos com muitos parâmetros](#evite-métodos-com-muitos-parâmetros)
+  - [Utilize espaços em branco para melhor visualização](#utilize-espaços-em-branco-para-melhor-visualização)
+  - [Limite o escopo das variáveis](#limite-o-escopo-das-variáveis)
+  - [Prefira `++i` em vez de `i++`](#prefira-i-em-vez-de-i)
+  - [Pare e dê uma volta](#pare-e-dê-uma-volta)
+    - [Snippets](#snippets)
+- [Referências](#referências)
 
 # Código limpo C++
 
@@ -632,6 +636,45 @@ Mesmo que os compiladores mais modernos otimizem esses dois laços para o mesmo 
 ## Pare e dê uma volta
 
 Sempre que estiver empacado na solução de um problema, respire fundo e vá dar uma volta ou fazer alguma outra atividade por um certo período de tempo. Isso ajuda a esfriar um pouco a cabeça e pensar em uma solução mais claramente.
+
+### Snippets
+
+```vscode
+{
+    "main function with namespace": {
+        "prefix": "#include int main",
+        "body": [
+            "#include <iostream>",
+            "",
+            "using namespace std;",
+            "",
+            "int main() {",
+            "    $0",  // O cursor ficará aqui após gerar o snippet
+            "    return 0;",
+            "}"
+        ],
+        "description": "C++ main function template with using namespace std"
+    },
+
+    "main function with setlocale": {
+        "prefix": "#include setlocale",
+        "body": [
+            "#include <iostream>",
+            "#include <locale.h>",
+            "",
+            "using namespace std;",
+            "",
+            "int main() {",
+            "    setlocale(LC_ALL, \"portuguese\");",
+            "",
+            "    $0",  // O cursor será posicionado aqui após gerar o snippet
+            "    return 0;",
+            "}"
+        ],
+        "description": "C++ main function with setlocale for Portuguese"
+    }
+}
+```
 
 # Referências
 
